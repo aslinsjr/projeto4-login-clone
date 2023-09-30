@@ -1,0 +1,132 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    padding: 72px 0 112px;
+}
+.container {
+    display: flex;
+    margin: 0 59px;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.logo-container {
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+}
+
+.img-container {
+    padding-top: 84px;
+    margin-bottom: -12px;
+}
+
+.logo-container img {
+    width: 320.94px;
+    height: 106px;
+    margin-left: -28px;
+}
+
+.logo-container p {
+    font-size: 28px;
+    font-weight: 400;
+    width: 500px;
+}
+
+.login-container {
+    display: flex;
+    width: 396px;
+    height: 496px;
+    flex-direction: column;
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 5px 0 28px;
+    text-align: center;
+}
+
+.form-container input {
+    display: block;
+    font-size: 17px;
+    color: #1d2129;
+    margin: 10px auto;
+    width: 90%;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+input[type="submit"] {
+    background-color: #1877f2;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.forgot-container {
+    margin-top: 16px;
+}
+
+.forgot-container a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.separator {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.create-acc {
+    border: none;
+    font-size: 17px;
+    padding: 0 16px;
+}
+
+.create-acc a {
+    background-color: #42b72a;
+    line-height: 48px;
+    padding: 0 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.create-acc a:hover {
+    background-color: #36a420;
+}
+
+.create-page {
+    margin-top: 28px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.create-page a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
